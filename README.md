@@ -5,7 +5,8 @@ During this workshop, you'll learn the complete process for training and deployi
 
 ### Table of Contents
 
-* [What do I need (S/W & H/W)?](docs/prerequisites.md)
+* [What do you need (S/W & H/W)?](docs/prerequisites.md)
+* [Understanding your problem-application]
 * [Prepare your training data]
 * [Train you network]
 * [Deploy your network]
