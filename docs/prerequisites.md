@@ -13,3 +13,10 @@ So, in terms of H/W we have:
 
   * Deep Learning Server (Intel® i7, 32GB RAM, NVidia® TitanX, 512 SSD) from preparing our training data and CNN training.
   * TX1 Developer Board (ARM® Cortex™-A15 CPU, NVidia® Kepler GPU with 192 CUDA Cores) for real-time CNN deployment.
+
+In terms of S/W we will use the following open-source tools.
+
+ * Deep Learning Server (Ubuntu 14.04 64-bit, NVIDIA Digits 4, Vatic)
+ * TX1 Developer Board (Jetpack 2.3)
+
+Details on how we will install and use the open-source tools will be discussed during your workshop progress. 
