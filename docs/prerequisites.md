@@ -7,7 +7,7 @@ Your desktop pc can serve also as a Deep Learning Server, in terms that labellin
 
 For the current workshop, an Intel® i7 with 32GB RAM is used, with an [NVidia® TitanX (12GB) GPU](http://www.evga.com/articles/00935/EVGA-GeForce-GTX-TITAN-X-HYBRID/), [1KW Power Supply](http://www.evga.com/Products/Product.aspx?pn=120-G2-1000-XR) and 512GB SSD. 
 
-In our tutorial, the training data preparation and the network training will be processed on the DL Server, while the deployment/inference of your trained network will be realized in low-power [TX1 NVidia® developer Kit](http://www.nvidia.com/object/jetson-tk1-embedded-dev-kit.html). TX1 entails a Tegra K1 SOC which is used in many next-gen mobile devices, such as [tablets and mobile phones](http://www.nvidia.com/object/tegra-phones-tablets.html), so if you plan to use your CNN in a mobile device this is the right option to get started with. Don't worry If you don't have the current board since inference can be done also in your DL Server using a connected camera.
+In our tutorial, the training data preparation and the network training will be processed on the DL Server, while the deployment/inference of your trained network will be realized in a low-power [TX1 NVidia® developer Kit](http://www.nvidia.com/object/jetson-tk1-embedded-dev-kit.html). TX1 entails a Tegra K1 SOC which is used in many next-gen mobile devices, such as [tablets and mobile phones](http://www.nvidia.com/object/tegra-phones-tablets.html), so if you plan to use your CNN in a mobile device this is the right option to get started with. Don't worry If you don't have the current board since inference can be done also in your DL Server using a connected camera.
 
 So, in terms of H/W we have:
 
