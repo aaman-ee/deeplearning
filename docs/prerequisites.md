@@ -11,4 +11,4 @@ In our tutorial, the training data preparation and the network training will be 
 
 So, in terms of H/W we have:
 
-  *Deep Learning Server (Intel i7, 32GB RAM, NVidia TitanX, 512 SSD)
+  * Deep Learning Server (Intel i7, 32GB RAM, NVidia TitanX, 512 SSD)
