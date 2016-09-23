@@ -11,4 +11,5 @@ In our tutorial, the training data preparation and the network training will be 
 
 So, in terms of H/W we have:
 
-  * Deep Learning Server (Intel i7, 32GB RAM, NVidia TitanX, 512 SSD)
+  * Deep Learning Server (Intel i7, 32GB RAM, NVidia TitanX, 512 SSD) from preparing our training data and make the CNN train.
+  * TX1 Developer Board (ARM® Cortex™-A15 CPU, NVIDIA Kepler GPU with 192 CUDA Cores) for real-time CNN deployment.
