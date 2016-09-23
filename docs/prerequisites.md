@@ -10,4 +10,5 @@ For the current workshop, an Intel i7 with 32GB RAM is used, with an [NVidia Tit
 In our tutorial, the training data preparation and the network training will be processed on the DL Server, while the deployment/inference of your trained network will be realized in low-power [TX1 NVIDIA developer Kit](http://www.nvidia.com/object/jetson-tk1-embedded-dev-kit.html). Don't worry If you don't have the current board since inference can be done also in your DL Server using a connected camera.
 
 So, in terms of H/W we have:
-  *Deep Learning Server (Intel i7, 32GB RAM, NVidia TitanX, 512 SSD)
+
+*Deep Learning Server (Intel i7, 32GB RAM, NVidia TitanX, 512 SSD)
