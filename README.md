@@ -35,11 +35,12 @@ For a single-class imageNet, (i.e. identify lemons in an image) the output for t
 
 <img src="https://raw.githubusercontent.com/aaman-ee/deeplearning/master/docs/lemon.png" width="500"/>
 
-For a multi-class imageNet, (i.e. 1000 classes) the output for the following query image would be several numbers denoting the probability of the image showing a certain classes. 
+For a multi-class imageNet, (i.e. 1000 classes) the output for the following query image would be several numbers denoting the probability of the image showing several certain classes. 
 
 <img src=https://raw.githubusercontent.com/aaman-ee/deeplearning/master/docs/lemonandwoodgrain.png width="545"/>
 
 More details on the training set construction are discussed in the next Section.
 
+For a single-class detectNet, (i.e. identify and detect lemons in an image) the output for the following query image would be a box around the object. 
 
 ## Prepare your Training Data
