@@ -39,10 +39,13 @@ For a multi-class imageNet, (i.e. 1000 classes) the output for the following que
 
 <img src=https://raw.githubusercontent.com/aaman-ee/deeplearning/master/docs/lemonandwoodgrain.png width="545"/>
 
-More details on the training set construction are discussed in the next Section.
-
 For a single-class detectNet, (i.e. identify and detect lemons in an image) the output for the following query image would be a box around the object. 
 
 <img src=https://raw.githubusercontent.com/aaman-ee/deeplearning/master/docs/detectNetlemon.png width="710"/>
+
+Finally, for a multi-class detectNet the output could be like the following.
+
+<img src=https://raw.githubusercontent.com/aaman-ee/deeplearning/master/docs/detectNetlemonandwoodgrain.png width="710"/>
+More details on the training set construction are discussed in the next Section.
 
 ## Prepare your Training Data
