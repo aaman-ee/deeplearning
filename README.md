@@ -33,8 +33,6 @@ For a *detectNet*, the training set includes images, the correct class, and the 
 
 For a single-class imageNet, (i.e. identify lemons in an image) the output for the following query image would be a single number denoting the probability of the image showing a lemon. 
 
-``` bash
-$ ./docs lemon.png 
-```
+<img src="https://raw.githubusercontent.com/aaman-ee/deeplearning/master/docs/lemon.png" width="700"/>
 
 More details on the training set construction are discussed in the next Section.
