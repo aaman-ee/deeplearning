@@ -20,7 +20,7 @@ It is very critical to unserstand the principles of the application you want to 
 A good way to start is to identify the desired output of your CNN. 
 After an image input, the trained CNN should:
 
-*Identify a certain (single class) pattern/object?*
-*Identify multiple (multi-class) patterns/objects?*
-*Detect (identify and locate) a certain (single class) pattern/object?*
-*Detect (identify and locate) miltiple (multi-class) patterns/objects?*
+*Identify a certain (single class) pattern/object?*<br>
+*Identify multiple (multi-class) patterns/objects?*<br>
+*Detect (identify and locate) a certain (single class) pattern/object?*<br>
+*Detect (identify and locate) miltiple (multi-class) patterns/objects?*<br>
