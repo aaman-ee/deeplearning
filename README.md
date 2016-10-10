@@ -43,7 +43,7 @@ For a single-class detectNet, (i.e. identify and detect lemons in an image) the 
 
 <img src=https://raw.githubusercontent.com/aaman-ee/deeplearning/master/docs/detectNetlemon.png width="710"/>
 
-Finally, for a multi-class detectNet the output could be like the following.
+Finally, for a multi-class detectNet the output could be something like the following.
 
 <img src=https://raw.githubusercontent.com/aaman-ee/deeplearning/master/docs/detectNetlemonandwoodgrain.png width="710"/>
 
