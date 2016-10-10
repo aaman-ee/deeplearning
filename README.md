@@ -43,6 +43,6 @@ More details on the training set construction are discussed in the next Section.
 
 For a single-class detectNet, (i.e. identify and detect lemons in an image) the output for the following query image would be a box around the object. 
 
-<img src=https://raw.githubusercontent.com/aaman-ee/deeplearning/master/docs/detectNetlemon.png width="845"/>
+<img src=https://raw.githubusercontent.com/aaman-ee/deeplearning/master/docs/detectNetlemon.png width="745"/>
 
 ## Prepare your Training Data
