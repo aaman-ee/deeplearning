@@ -19,7 +19,10 @@ During this workshop, you'll learn the complete process for training and deployi
 It is very critical to unserstand the principles of the application you want to build, otherwise you will later face possible delays for re-training and re-preparation of your traninng data. In several cases, a not clear understanding would mean CNN generalization failure, since false pre-trained CNNs were used for your final trained model. 
 A good way to start is to identify the desired output of your CNN. 
 After an image input, the trained CNN should:
-**Identify a certain (single class) pattern/object?
-**Identify multiple (multi-class) patterns/objects?
-**Detect (identify and locate) a certain (single class) pattern/object?
-**Detect (identify and locate) miltiple (multi-class) patterns/objects?
+*Identify a certain (single class) pattern/object?*
+
+*Identify multiple (multi-class) patterns/objects?*
+
+*Detect (identify and locate) a certain (single class) pattern/object?*
+
+*Detect (identify and locate) miltiple (multi-class) patterns/objects?*
