@@ -8,7 +8,7 @@ During this workshop, you'll learn the complete process for training and deployi
 
 * [What do you need (S/W & H/W)?](docs/prerequisites.md)
 * [Understanding your Problem/Application](#understanding-your-problem/application)
-* [Prepare your training data]
+* [Prepare your Training Data](#prepare-your-training-data)
 * [Train you network]
 * [Deploy your network]
     * [Low power devices]
@@ -40,3 +40,6 @@ For a multi-class imageNet, (i.e. 1000 classes) the output for the following que
 <img src=https://raw.githubusercontent.com/aaman-ee/deeplearning/master/docs/lemonandwoodgrain.png width="545"/>
 
 More details on the training set construction are discussed in the next Section.
+
+
+## Prepare your Training Data
