@@ -8,7 +8,7 @@ During this workshop, you'll learn the complete process for training and deployi
 
 * [What do you need (S/W & H/W)?](docs/prerequisites.md)
 * [Understanding your Problem/Application](#understanding-your-problem/application)
-* [Prepare your Training Data](#prepare-your-training-data)
+* [Preparing your Training Data](#preparing-your-training-data)
 * [Train you network]
 * [Deploy your network]
     * [Low power devices]
@@ -50,4 +50,4 @@ Finally, for a multi-class detectNet the output could be something like the foll
 Since the output of the CNN is different fom each case, it is clear that apart from the output layer of the CNN, the training dataset must be provided for the training phase in the correct and respective format.<br>
 More details on the training set construction are discussed in the next Section.
 
-## Prepare your Training Data
+## Preparing your Training Data
