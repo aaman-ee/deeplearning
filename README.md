@@ -28,8 +28,8 @@ After an image input, the trained CNN should:
 Based on each selection, the format of the training dataset and the output layer of the CNN have to be precisely defined.
 When we want to identify, the CNN structure is often called *imageNet* <sub>(not to be confused with the [ImageNet database](http://image-net.org/))</sub><br>
 When we want to detect, the CNN structure is often called *detectNet* <br>
-For an *imageNet*, the training set includes only images and the respective correct class<br>
-For a *detectNet*, the training set includes images, the respective correct class, and its bounding box coordinates<br>
+For an *imageNet*, the training set includes only images and the respective correct classes<br>
+For a *detectNet*, the training set includes images, the respective correct classes, and their bounding box coordinates<br>
 
 For a single-class imageNet, (i.e. identify lemons in an image) the output for the following query image would be a single number denoting the probability of the image showing a lemon. 
 
