@@ -26,7 +26,7 @@ After an image input, the trained CNN should:
 *Detect (identify and locate) miltiple (multi-class) patterns/objects?*<br>
 
 Based on each selection, the format of the training dataset and the output layer of the CNN have to be modified, respectively.
-When we want to identify, the CNN structure is often called *imageNet* <sub>(not to be confused with the imageNet database)</sub><br>
+When we want to identify, the CNN structure is often called *imageNet* <sub>(not to be confused with the [ImageNet database](http://image-net.org/))</sub><br>
 When we want to detect, the CNN structure is often called *detectNet* <br>
 For an *imageNet*, the training set includes only images and the correct class<br>
 For a *detectNet*, the training set includes images, the correct class, and the bounding box coordinates<br>
