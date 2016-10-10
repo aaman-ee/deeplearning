@@ -15,3 +15,6 @@ During this workshop, you'll learn the complete process for training and deployi
 * [Things to have in mind]
 
 ## Understanding Your Problem/Application
+
+It is very critical to unserstand the principles of the application you want to build, otherwise you will later face possible delays for retraining and re-preparation of your traninng data. In several cases, a not clear understanding would mean CNN generalization failure, since false pre-trained CNNs were used for your final trained model. 
+A good way to start is to identify the desired output of your CNN. 
