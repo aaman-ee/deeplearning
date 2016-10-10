@@ -28,7 +28,7 @@ After an image input, the trained CNN should:
 Based on each selection, the format of the training dataset and the output layer of the CNN have to be modified, respectively.
 When we want to identify, the CNN structure is often called *imageNet* <br>
 When we want to detect, the CNN structure is often called *detecNet* <br>
-For an *imageNet*, the training set includes only images and the correct class
-For a *detectNet*, the training set includes images, the correct class, and the bounding box coordinates
+For an *imageNet*, the training set includes only images and the correct class<br>
+For a *detectNet*, the training set includes images, the correct class, and the bounding box coordinates<br>
 
 More details on the training set construction are discussed in the next Section.
