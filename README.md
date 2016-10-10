@@ -47,7 +47,7 @@ Finally, for a multi-class detectNet the output could be like the following.
 
 <img src=https://raw.githubusercontent.com/aaman-ee/deeplearning/master/docs/detectNetlemonandwoodgrain.png width="710"/>
 
-Since the output of the CNN is different from each case, it is clear that apart from the output layer of the CNN, the training dataset must be provided for the training phase in the correct and respective format.<br>
+Since the output of the CNN is different fom each case, it is clear that apart from the output layer of the CNN, the training dataset must be provided for the training phase in the correct and respective format.<br>
 More details on the training set construction are discussed in the next Section.
 
 ## Prepare your Training Data
