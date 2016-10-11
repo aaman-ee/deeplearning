@@ -7,7 +7,7 @@ During this workshop, you'll learn the complete process for training and deployi
 ### Table of Contents
 
 * [What do you need (S/W & H/W)?](docs/prerequisites.md)
-* [Understanding your Problem/Application](#understanding-your-problem/application)
+* [Understanding your Problem/Application](#understanding your problem/application)
 * [Preparing your Training Data](#preparing-your-training-data)
 * [Train you network]
 * [Deploy your network]
@@ -51,3 +51,10 @@ Since the output of the CNN is different for each case, it is clear that apart f
 More details on the training set construction are discussed in the next Section.
 
 ## Preparing your Training Data
+
+During the turotial we will comply with the DIGITS standard for the Training Data structure, howerver, this structure is used almost in any DL frameworks.
+
+###imageNet
+For a multi-class imageNet, the general rule is to inlcude images of each class in a separate subfolder and one file for the labeling of all images. <br>
+The folder structure is described clear [here](https://github.com/NVIDIA/DIGITS/blob/master/docs/ImageFolderFormat.md)
+
