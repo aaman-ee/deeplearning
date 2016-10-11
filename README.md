@@ -52,9 +52,9 @@ More details on the training set construction are discussed in the next Section.
 
 ## Preparing your Training Data
 
-During the turotial we will comply with the DIGITS standard for the Training Data structure, howerver, this structure is used almost in any DL frameworks.
+During the turotial we will comply with the DIGITS standard for the Training Data structure, howerver, this structure is used almost in most DL frameworks.
 
 ###imageNet
 For a multi-class imageNet, the general rule is to inlcude images of each class in a separate subfolder and one file for the labeling of all images. <br>
 The folder structure that must be followed is described [here](https://github.com/NVIDIA/DIGITS/blob/master/docs/ImageFolderFormat.md) clearly.
-
+For selecting validation and testing sets, you have two options. Either prepare a new folder with the same structure, or Import all your images and labels and select the percentage for testing and validation throught the DIGITS interface. In the latter case, DIGITS will select randomly a portion from each class for the test and validation image sets.  
