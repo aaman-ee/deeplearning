@@ -56,5 +56,5 @@ During the turotial we will comply with the DIGITS standard for the Training Dat
 
 ###imageNet
 For a multi-class imageNet, the general rule is to inlcude images of each class in a separate subfolder and one file for the labeling of all images. <br>
-The folder structure is described clear [here](https://github.com/NVIDIA/DIGITS/blob/master/docs/ImageFolderFormat.md)
+The folder structure that must be followed is described [here](https://github.com/NVIDIA/DIGITS/blob/master/docs/ImageFolderFormat.md) clearly.
 
