@@ -58,3 +58,6 @@ During the turotial we will comply with the DIGITS standard for the Training Dat
 For a multi-class imageNet, the general rule is to inlcude images of each class in a separate subfolder and one file for the labeling of all images. <br>
 The folder structure that must be followed is described [here](https://github.com/NVIDIA/DIGITS/blob/master/docs/ImageFolderFormat.md) clearly.
 For selecting validation and testing sets, you have two options. Either prepare a new folder with the same structure, or Import all your images and labels and select the percentage for testing and validation throught the DIGITS interface. In the latter case, DIGITS will select randomly a portion from each class for the test and validation image sets.  
+<img src=https://raw.githubusercontent.com/aaman-ee/deeplearning/master/docs/trainval.jpg width="710"/>
+
+For some widely used datasets (MNIST, CIFAR), python scripts are available [here](https://github.com/NVIDIA/DIGITS/blob/master/docs/StandardDatasets.md).
