@@ -16,7 +16,7 @@ During this workshop, you'll learn the complete process for training and deployi
 
 ## Understanding your Problem/Application
 
-It is very critical to unserstand the principles of the application you want to build, otherwise you will later face possible delays for re-training and re-preparation of your traninng data. In several cases, a not clear understanding would mean CNN generalization failure, since false pre-trained CNNs were used for your final trained model. 
+It is very critical to understand the principles of the application you want to build, otherwise you will later face possible delays for re-training and re-preparation of your training data. In several cases, a not clear understanding would mean CNN generalization failure, since false pre-trained CNNs were used for your final trained model. 
 A good way to start is to identify the desired output of your CNN. 
 After an image input, the trained CNN should:
 
@@ -52,12 +52,12 @@ More details on the training set construction are discussed in the next Section.
 
 ## Preparing your Training Data
 
-During the turotial we will comply with the DIGITS standard for the Training Data structure, howerver, this structure is used almost in most DL frameworks.
+During the tutorial we will comply with the DIGITS standard for the Training Data structure, however, this structure is used almost in most DL frameworks.
 
 ###imageNet
-For a multi-class imageNet, the general rule is to inlcude images of each class in a separate subfolder and one file for the labeling of all images. <br>
+For a multi-class imageNet, the general rule is to include images of each class in a separate subfolder and one file for the labeling of all images. <br>
 The folder structure that must be followed is described [here](https://github.com/NVIDIA/DIGITS/blob/master/docs/ImageFolderFormat.md) clearly.
-For selecting validation and testing sets, you have two options. Either prepare a new folder with the same structure, or Import all your images and labels and select the percentage for testing and validation throught the DIGITS interface. In the latter case, DIGITS will select randomly a portion from each class for the test and validation image sets.  
+For selecting validation and testing sets, you have two options. Either prepare a new folder with the same structure, or Import all your images and labels and select the percentage for testing and validation through the DIGITS interface. In the latter case, DIGITS will select randomly a portion from each class for the test and validation image sets.  
 <img src=https://raw.githubusercontent.com/aaman-ee/deeplearning/master/docs/trainval.jpg width="710"/>
 
 For some widely used datasets (MNIST, CIFAR), python scripts are available [here](https://github.com/NVIDIA/DIGITS/blob/master/docs/StandardDatasets.md).
@@ -65,5 +65,5 @@ For some widely used datasets (MNIST, CIFAR), python scripts are available [here
 ###detectNet
 For multi-class detectNet, for each training image, a separate accompanying txt file is needed. The folder structure remains the same, but the labeling format is more detailed. The DIGITS framework, follows the KITTI database labeling format which can be found [here](https://github.com/NVIDIA/DIGITS/blob/master/digits/extensions/data/objectDetection/README.md).
 
-After reading carefully the labelling format, we should note that certain labeling values are not necessary for several applications. Only the data which is actually needed for the particular application should be used. If two or more objects are located in the same image, new lines in the corresponing txt file are added.
+After reading carefully the labelling format, we should note that certain labeling values are not necessary for several applications. Only the data which is actually needed for the particular application should be used. If two or more objects are located in the same image, new lines in the corresponding txt file are added.
 
