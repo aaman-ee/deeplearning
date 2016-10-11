@@ -63,7 +63,7 @@ For selecting validation and testing sets, you have two options. Either prepare 
 For some widely used datasets (MNIST, CIFAR), python scripts are available [here](https://github.com/NVIDIA/DIGITS/blob/master/docs/StandardDatasets.md).
 
 ###detectNet
-For multi-class detectNet, for each training image, a separate accompanying txt file is needed. The folder structure remains the same, but the labeling format is more detailed. The DIGITS framework, follows the KITTI database labeling format which can be found [here](https://github.com/NVIDIA/DIGITS/blob/master/digits/extensions/data/objectDetection/README.md)
+For multi-class detectNet, for each training image, a separate accompanying txt file is needed. The folder structure remains the same, but the labeling format is more detailed. The DIGITS framework, follows the KITTI database labeling format which can be found [here](https://github.com/NVIDIA/DIGITS/blob/master/digits/extensions/data/objectDetection/README.md).
 
 After reading carefully the labelling format, we should note that certain labeling values are not necessary for several applications. Only the data which is actually needed for the particular application should be used. If two or more objects are located in the same image, new lines in the coresponing txt file are added.
 
